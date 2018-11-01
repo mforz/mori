@@ -1,12 +1,11 @@
 
 
-const $init = ()=>{}
+const $init = function(){}
 
 //ex:判断是否支持使用featch
-$init.prototype.isFetch= ()=>{
+$init.prototype.isFetch = ()=>{
   return !!window.fetch
 }
-
 $init.prototype.$http= (params={})=>{
   if(!axios){
     console.log('加载axios失败')
@@ -26,4 +25,4 @@ $init.prototype.$http= (params={})=>{
   })
 }
 
-export {$init}
+export { $init }

@@ -17,7 +17,15 @@ module.exports = {
         pathRewrite: {
           '^/weather': '/'
         }
-      }
+      },
+      '/it120':{
+        target: ' https://api.it120.cc/mforz',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/it120': '/'
+        }
+      },
+
     },
 
     // Various Dev Server settings

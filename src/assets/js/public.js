@@ -1,4 +1,5 @@
-const $public = ()=>{}
+
+const $public = function(){}
 //0.0.1weather变换
 $public.prototype.weather = (data)=>{
   if(!data){return}

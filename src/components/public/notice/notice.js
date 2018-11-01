@@ -15,7 +15,6 @@ function getNoticeInstance (props) {
     noticeInstance = noticeInstance || new Notification(props);
     noticeInstance.$mount();
     document.body.appendChild(noticeInstance.$el)
-
     return noticeInstance;
 }
 

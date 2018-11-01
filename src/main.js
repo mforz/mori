@@ -3,12 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import Notice from './components/public/notice/notice.js'
+
+// import Notice from './components/public/notice/notice.js'
 
 
 
 Vue.config.productionTip = false
-Vue.prototype.$notice = Notice;
+// Vue.prototype.$notice = Notice;
 
 /* eslint-disable no-new */
 new Vue({
